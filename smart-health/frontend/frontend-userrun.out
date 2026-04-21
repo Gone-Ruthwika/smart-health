@@ -1,0 +1,14 @@
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m627[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m3:23:55 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m3:24:02 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/context/AuthContext.jsx, /src/pages/Centers.jsx, /src/pages/admin/AdminQueue.jsx, /src/pages/CenterDetail.jsx, /src/pages/admin/AdminCenters.jsx, /src/context/NotificationContext.jsx, /src/pages/admin/AdminUsers.jsx, /src/pages/admin/AdminAppointments.jsx, /src/pages/ForgotPassword.jsx, /src/pages/MedicalHistory.jsx, /src/components/ui/EmergencyButton.jsx, /src/pages/AppointmentStatus.jsx, /src/pages/Dashboard.jsx, /src/pages/Profile.jsx, /src/pages/admin/AdminDashboard.jsx, /src/pages/admin/AdminDoctors.jsx, /src/pages/BookAppointment.jsx[22m
+[2m3:24:02 pm[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/context/AuthContext.jsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:24:02 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css, /src/pages/Signup.jsx, /src/pages/CenterDetail.jsx, /src/components/layout/ProtectedRoute.jsx, /src/context/NotificationContext.jsx, /src/pages/admin/AdminUsers.jsx, /src/components/layout/Navbar.jsx, /src/pages/AdminLogin.jsx, /src/components/ui/EmergencyButton.jsx, /src/pages/Login.jsx, /src/pages/Dashboard.jsx, /src/pages/Profile.jsx[22m
+[2m3:24:02 pm[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/context/NotificationContext.jsx[22m Could not Fast Refresh ("useNotifications" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:24:02 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css, /src/pages/Dashboard.jsx, /src/components/ui/NotificationBell.jsx[22m
+[2m3:24:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/BookAppointment.jsx, /src/index.css[22m
+[2m3:42:20 pm[22m [36m[1m[vite][22m[39m [32mvite.config.js changed, restarting server...[39m
+[2m3:42:20 pm[22m [36m[1m[vite][22m[39m server restarted.
+[2m3:54:34 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminLogin.jsx, /src/index.css[22m

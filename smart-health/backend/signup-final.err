@@ -1,0 +1,17 @@
+C:\Users\ruthw\OneDrive\Desktop\online as\smart-health\backend\src\services\mailService.js:22
+      console.log(\n[MOCK EMAIL] To:  | Subject: );
+                  ^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1692:18)
+    at Module._compile (node:internal/modules/cjs/loader:1735:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\ruthw\OneDrive\Desktop\online as\smart-health\backend\src\services\alertScheduler.js:2:21)
+
+Node.js v24.13.0

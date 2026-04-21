@@ -1,0 +1,4 @@
+USE smart_health;
+ALTER TABLE appointments ADD COLUMN reminder_sent TIMESTAMP NULL DEFAULT NULL;
+ALTER TABLE appointments ADD COLUMN delay_notified TIMESTAMP NULL DEFAULT NULL;
+ALTER TABLE appointments ADD COLUMN queue_alert_sent TIMESTAMP NULL DEFAULT NULL;

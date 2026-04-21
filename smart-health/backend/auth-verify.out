@@ -1,0 +1,18 @@
+[AlertScheduler] Started — running every 60 seconds
+Server running on port 5000
+MySQL connected
+[AUTH] Signup attempt {
+  email: 'verify.890bed0e@example.com',
+  hasName: true,
+  hasPhone: true,
+  ip: '::1'
+}
+
+[MOCK EMAIL] To: verify.890bed0e@example.com | Subject: 🎉 Welcome to SmartHealth, Verify User!
+[AUTH] Signup attempt {
+  email: 'verify.890bed0e@example.com',
+  hasName: true,
+  hasPhone: true,
+  ip: '::1'
+}
+[AUTH] Login attempt { email: 'verify.890bed0e@example.com', ip: '::1' }

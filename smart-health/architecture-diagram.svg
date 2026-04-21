@@ -1,0 +1,194 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FBFF"/>
+      <stop offset="0.55" stop-color="#EEF7FF"/>
+      <stop offset="1" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="frontend" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="backend" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="database" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="realtime" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="mail" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+    <filter id="shadow" x="-40" y="-40" width="1680" height="1060" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10V0Z" fill="#64748B"/>
+    </marker>
+    <style>
+      .title { font: 700 40px 'Segoe UI', Arial, sans-serif; fill: #0F172A; }
+      .subtitle { font: 500 18px 'Segoe UI', Arial, sans-serif; fill: #475569; }
+      .panel-title { font: 700 22px 'Segoe UI', Arial, sans-serif; fill: white; }
+      .section-title { font: 700 22px 'Segoe UI', Arial, sans-serif; fill: #0F172A; }
+      .card-title { font: 700 18px 'Segoe UI', Arial, sans-serif; fill: #0F172A; }
+      .label { font: 600 16px 'Segoe UI', Arial, sans-serif; fill: #0F172A; }
+      .small { font: 500 14px 'Segoe UI', Arial, sans-serif; fill: #334155; }
+      .tiny { font: 500 13px 'Segoe UI', Arial, sans-serif; fill: #475569; }
+      .pill { font: 700 13px 'Segoe UI', Arial, sans-serif; fill: white; }
+      .white-small { font: 500 14px 'Segoe UI', Arial, sans-serif; fill: rgba(255,255,255,0.92); }
+    </style>
+  </defs>
+
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <circle cx="1360" cy="120" r="170" fill="#BAE6FD" opacity="0.35"/>
+  <circle cx="180" cy="860" r="220" fill="#C7D2FE" opacity="0.28"/>
+
+  <g filter="url(#shadow)">
+    <rect x="60" y="44" width="1480" height="892" rx="34" fill="white"/>
+  </g>
+
+  <text x="110" y="112" class="title">Smart Health Appointment System Architecture</text>
+  <text x="110" y="145" class="subtitle">Full-stack booking platform with hospital-admin workflows, live queue tracking, notifications, and MySQL persistence</text>
+
+  <g>
+    <rect x="110" y="190" width="330" height="112" rx="24" fill="url(#frontend)"/>
+    <text x="140" y="232" class="panel-title">Frontend Layer</text>
+    <text x="140" y="260" class="white-small">React + Vite + Tailwind CSS</text>
+    <text x="140" y="284" class="white-small">User app, Admin portal, queue UI</text>
+    <rect x="334" y="214" width="82" height="28" rx="14" fill="rgba(255,255,255,0.18)"/>
+    <text x="356" y="233" class="pill">5173</text>
+  </g>
+
+  <g>
+    <rect x="635" y="190" width="330" height="112" rx="24" fill="url(#backend)"/>
+    <text x="665" y="232" class="panel-title">Backend API Layer</text>
+    <text x="665" y="260" class="white-small">Node.js + Express + JWT + Socket.IO</text>
+    <text x="665" y="284" class="white-small">REST APIs, auth, admin controls, business rules</text>
+    <rect x="859" y="214" width="82" height="28" rx="14" fill="rgba(255,255,255,0.18)"/>
+    <text x="881" y="233" class="pill">5000</text>
+  </g>
+
+  <g>
+    <rect x="1160" y="190" width="270" height="112" rx="24" fill="url(#database)"/>
+    <text x="1190" y="232" class="panel-title">Data Layer</text>
+    <text x="1190" y="260" class="white-small">MySQL</text>
+    <text x="1190" y="284" class="white-small">Users, centers, doctors, slots, appointments</text>
+  </g>
+
+  <path d="M440 246H615" stroke="#64748B" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="486" y="236" class="tiny">HTTP / REST</text>
+
+  <path d="M965 246H1140" stroke="#64748B" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="1024" y="236" class="tiny">SQL queries</text>
+
+  <path d="M800 302V388" stroke="#8B5CF6" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow)"/>
+  <text x="822" y="356" class="tiny">real-time events</text>
+
+  <g>
+    <rect x="110" y="362" width="330" height="510" rx="28" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="140" y="408" class="section-title">Client Applications</text>
+
+    <rect x="140" y="438" width="270" height="92" rx="18" fill="#FFFFFF" stroke="#D6EAF8"/>
+    <text x="162" y="468" class="card-title">Patient App</text>
+    <text x="162" y="493" class="small">Signup, login, nearby centers</text>
+    <text x="162" y="515" class="small">Book / cancel / reschedule appointments</text>
+
+    <rect x="140" y="548" width="270" height="92" rx="18" fill="#FFFFFF" stroke="#D6EAF8"/>
+    <text x="162" y="578" class="card-title">Admin Portal</text>
+    <text x="162" y="603" class="small">Main admin: centers, users, system control</text>
+    <text x="162" y="625" class="small">Hospital admin: doctors, slots, queue, bookings</text>
+
+    <rect x="140" y="658" width="270" height="92" rx="18" fill="#FFFFFF" stroke="#D6EAF8"/>
+    <text x="162" y="688" class="card-title">Notification UX</text>
+    <text x="162" y="713" class="small">Socket room join per user</text>
+    <text x="162" y="735" class="small">Notification bell + live queue updates</text>
+
+    <rect x="140" y="768" width="270" height="74" rx="18" fill="#E0F2FE"/>
+    <text x="162" y="798" class="card-title">Key Frontend Stack</text>
+    <text x="162" y="822" class="small">Axios, React Router, Toasts, Context providers</text>
+  </g>
+
+  <g>
+    <rect x="500" y="362" width="600" height="510" rx="28" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="530" y="408" class="section-title">Backend Services and Core Modules</text>
+
+    <rect x="530" y="438" width="250" height="118" rx="20" fill="#FFFFFF" stroke="#DBEAFE"/>
+    <text x="552" y="468" class="card-title">Authentication</text>
+    <text x="552" y="493" class="small">`/api/auth/login`, `/signup`, `/me`</text>
+    <text x="552" y="515" class="small">JWT issuance + role / admin_scope checks</text>
+    <text x="552" y="537" class="small">bcrypt password hashing</text>
+
+    <rect x="810" y="438" width="260" height="118" rx="20" fill="#FFFFFF" stroke="#DBEAFE"/>
+    <text x="832" y="468" class="card-title">Appointment Domain</text>
+    <text x="832" y="493" class="small">Book, reschedule, cancel appointments</text>
+    <text x="832" y="515" class="small">Queue number + estimated wait calculation</text>
+    <text x="832" y="537" class="small">Confirmation + cancellation workflows</text>
+
+    <rect x="530" y="582" width="250" height="118" rx="20" fill="#FFFFFF" stroke="#DBEAFE"/>
+    <text x="552" y="612" class="card-title">Admin Operations</text>
+    <text x="552" y="637" class="small">Centers, doctors, slot management</text>
+    <text x="552" y="659" class="small">Scoped hospital-admin access</text>
+    <text x="552" y="681" class="small">Queue monitor + appointment status updates</text>
+
+    <rect x="810" y="582" width="260" height="118" rx="20" fill="#FFFFFF" stroke="#DBEAFE"/>
+    <text x="832" y="612" class="card-title">Notifications and Realtime</text>
+    <text x="832" y="637" class="small">Socket.IO rooms for user notifications</text>
+    <text x="832" y="659" class="small">In-app alerts for users and admins</text>
+    <text x="832" y="681" class="small">Live queue broadcast per center / doctor / date</text>
+
+    <rect x="530" y="726" width="540" height="116" rx="20" fill="#EEF2FF" stroke="#C7D2FE"/>
+    <text x="552" y="756" class="card-title">Schedulers and Integrations</text>
+    <text x="552" y="781" class="small">Alert scheduler for reminders, queue alerts, no-show handling, auto-complete</text>
+    <text x="552" y="803" class="small">Mail services for confirmations, admin notifications, and daily summaries</text>
+    <text x="552" y="825" class="small">Environment-driven config: SMTP, CLIENT_URL, DATABASE_URL, JWT secret</text>
+  </g>
+
+  <g>
+    <rect x="1160" y="362" width="270" height="234" rx="28" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="1190" y="408" class="section-title">Persistence</text>
+
+    <rect x="1190" y="438" width="210" height="44" rx="14" fill="#FFFFFF" stroke="#D1FAE5"/>
+    <text x="1210" y="466" class="label">users</text>
+
+    <rect x="1190" y="490" width="210" height="44" rx="14" fill="#FFFFFF" stroke="#D1FAE5"/>
+    <text x="1210" y="518" class="label">centers + doctors</text>
+
+    <rect x="1190" y="542" width="210" height="44" rx="14" fill="#FFFFFF" stroke="#D1FAE5"/>
+    <text x="1210" y="570" class="label">doctor_availability</text>
+  </g>
+
+  <g>
+    <rect x="1160" y="620" width="270" height="252" rx="28" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="1190" y="666" class="section-title">Operational Data</text>
+
+    <rect x="1190" y="696" width="210" height="44" rx="14" fill="#FFFFFF" stroke="#D1FAE5"/>
+    <text x="1210" y="724" class="label">appointments</text>
+
+    <rect x="1190" y="748" width="210" height="44" rx="14" fill="#FFFFFF" stroke="#D1FAE5"/>
+    <text x="1210" y="776" class="label">notifications</text>
+
+    <rect x="1190" y="800" width="210" height="44" rx="14" fill="#FFFFFF" stroke="#D1FAE5"/>
+    <text x="1210" y="828" class="label">admin_center_access</text>
+  </g>
+
+  <g>
+    <rect x="1160" y="114" width="130" height="42" rx="21" fill="#E0F2FE"/>
+    <text x="1188" y="141" class="label">Patients</text>
+    <rect x="1300" y="114" width="160" height="42" rx="21" fill="#F5D0FE"/>
+    <text x="1324" y="141" class="label">Hospital Admins</text>
+  </g>
+
+  <path d="M1226 156C1170 168 1110 197 966 236" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M1380 156C1316 170 1216 204 966 246" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="645" y="318" width="310" height="52" rx="18" fill="#F3E8FF" stroke="#DDD6FE"/>
+    <text x="670" y="350" class="label">Socket.IO realtime channel</text>
+  </g>
+</svg>

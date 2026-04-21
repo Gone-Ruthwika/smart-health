@@ -1,0 +1,4 @@
+[AlertScheduler] Started — running every 60 seconds
+Server running on port 5000
+MySQL connected
+[AUTH] Login attempt { email: 'sample.user@smarthealth.com', ip: '::ffff:127.0.0.1' }

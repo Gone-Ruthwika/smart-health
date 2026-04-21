@@ -1,0 +1,5 @@
+
+> smart-health-backend@1.0.0 start
+> node src/index.js
+
+[AlertScheduler] Started — running every 60 seconds

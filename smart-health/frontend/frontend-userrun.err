@@ -1,0 +1,71 @@
+[2m3:08:50 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/auth/login[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m3:09:08 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/auth/login[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m3:18:04 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/auth/signup[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m3:18:08 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/auth/signup[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m3:39:17 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/auth/signup[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m3:43:45 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/auth/login[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:43:47 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/auth/login[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:44:09 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/auth/login[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:44:15 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:44:15 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:44:19 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=clinic&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:44:27 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=eye_care&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:44:34 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=dental&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:44:39 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=diagnostics&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:44:46 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:53:53 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=diagnostics&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:53:53 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=dental&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:53:54 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=eye_care&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:58:14 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=eye_care&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:58:14 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=eye_care&search=[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:58:33 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=&search=hydea[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m3:58:33 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/centers?sector=&search=hydea[39m
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
